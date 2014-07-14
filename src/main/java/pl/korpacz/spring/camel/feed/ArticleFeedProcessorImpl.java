@@ -33,7 +33,7 @@ public class ArticleFeedProcessorImpl implements ArticleFeedProcessor {
         for (Article article : articleList) {
             builder.append(article.toString()).append("\n");
         }
-
+        System.out.println("Ala ma kota");
         return builder.toString();
     }
 
